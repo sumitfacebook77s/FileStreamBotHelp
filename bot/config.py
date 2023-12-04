@@ -13,6 +13,7 @@ class Telegram:
 class Server:
     BASE_URL = env.get("BASE_URL", "https://filestreambothelp-2a47363e2cd7.herokuapp.com")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
+    PORT = int(env.get("PORT", ))
 
 # LOGGING CONFIGURATION
 LOGGER_CONFIG_JSON = {
